@@ -6,7 +6,6 @@ import CustomButton from '../custom-button/custom-button.component';
 import { auth, signInWithGoogle } from '../../firebase/firebase.utils';
 
 import './sign-in.styles.scss';
-import { getAllByPlaceholderText } from '@testing-library/dom';
 
 class SignIn extends React.Component {
   constructor(props) {
